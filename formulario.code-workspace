@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../DeV/7 days of code"
+		},
+		{
+			"path": "../../DeV/Meu site"
+		},
+		{
+			"path": "../../DeV/LP Rafa"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "LP Rafa"
+	}
+}

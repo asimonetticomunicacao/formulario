@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+</head>
+<body>
+    <div>
+        <H1 id="titulo">Entre em contato conosco</H1>
+        <p id="subtitulo"><b>Deixe aqui sua opinião, sugestão ou reclamação</b></p>
+        <br>
+        <form action="" class="dados" action="mailto: asimonetticomunicacao@gmail.com" method="post" enctype="text/plain">
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="name"><strong>Nome e Sobrenome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <br>
+                <div class="campo">
+                    <label for="email"><strong>E-mail</strong></label>
+                    <input type="email" name="email" id="e-mail" required>
+                </div>
+                <br>
+                <div class="campo">
+                    <label for="motivo"><strong>Qual o motivo do seu contato?</strong></label>
+                    <input type="radio" name="motivo" id="opinião" >Opinião
+                    <label for="motivo"><input type="radio" name="motivo" id="sugestão" >Sugestão</label>
+                    <label for="motivo"><input type="radio" name="motivo" id="sugestão">Reclamação</label>
+
+                </div>
+                <br>
+                <div class="campo">
+                    <label for="contato"><strong>Como podemos te ajudar?</strong> </label>
+                    <textarea name="contato" id="contato" rows="5" style="width: 26em;" required></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="botao"> <strong>Enviar</strong></button>
+                </div>
+                
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
